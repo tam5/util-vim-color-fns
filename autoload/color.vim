@@ -128,6 +128,6 @@ function! color#Highlight(group, fg, bg, attr)
         exec 'hi ' . a:group . ' guibg=' . a:bg
     endif
     if !empty(a:attr)
-        exec 'hi ' . a:group . ' gui=' . a:attr . ' cterm=' . a:attr
+        exec 'hi! ' . a:group . ' gui=' . a:attr . ' cterm=' . a:attr
     endif
 endfunction
