@@ -3,6 +3,8 @@
 "/ The conversion functions here were largely copied from `https://github.com/romgrk/lib.kom`.
 "/
 
+let g:loaded_color_util = 1
+
 let s:patterns = {}
 
 "6 hex-numbers, optionnal #-prefix
